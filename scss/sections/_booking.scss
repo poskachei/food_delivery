@@ -7,8 +7,8 @@
     padding: 10rem 3rem 6rem;
     margin-bottom: 11rem;
     background-image:
-      url(../../images/white_ellipse.svg),
-      url(../../images/white_ellipse.svg); 
+      url(../images/white_ellipse.svg),
+      url(../images/white_ellipse.svg); 
     background-repeat: no-repeat;
     background-size: 34rem 34rem, 19rem 19rem;
     background-position: 
@@ -20,7 +20,7 @@
       @include pseudo;
       width: 25rem;
       height: 20rem;
-      background-image: url(../../images/leaf_1.webp);
+      background-image: url(../images/leaf_1.webp);
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -85,16 +85,13 @@
     margin-bottom: 3rem;
   }
 
-  &__group {}
-
-  &__label {}
-
+  
   &__input {
     width: 100%;
     background-color: rgba($c-white, 0.2);
     border-radius: 1.2rem;
     padding: 1.7rem 5rem 1.7rem 6rem;
-    background-image: url(../../images/icons/icon_calendar.svg);
+    background-image: url(../images/icons/icon_calendar.svg);
     background-repeat: no-repeat;
     background-position: left 2rem center;
     background-size: 2.4rem;
@@ -102,21 +99,21 @@
 
     &--date{
       background-image: 
-      url(../../images/icons/icon_chevron_down.svg),
-        url(../../images/icons/icon_calendar.svg);
+      url(../images/icons/icon_chevron_down.svg),
+        url(../images/icons/icon_calendar.svg);
       background-position: right 2rem center, left 2rem center;
     }
 
     &--person{
-      background-image: url(../../images/icons/icon_person.svg);
+      background-image: url(../images/icons/icon_person.svg);
     }
 
     &--email{
-      background-image: url(../../images/icons/icon_email.svg);
+      background-image: url(../images/icons/icon_email.svg);
     }
 
     &--phone{
-      background-image: url(../../images/icons/icon_phone.svg);
+      background-image: url(../images/icons/icon_phone.svg);
     }
   }
 
